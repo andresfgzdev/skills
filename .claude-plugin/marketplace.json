@@ -1,0 +1,24 @@
+{
+  "name": "andresfgzdev",
+  "description": "Agent skills by Andres Gallego for understanding and organising codebases.",
+  "owner": {
+    "name": "Andres Gallego",
+    "url": "https://github.com/andresfgzdev"
+  },
+  "plugins": [
+    {
+      "name": "explain-it",
+      "source": { "source": "github", "repo": "andresfgzdev/explain-it" },
+      "description": "Explain how a feature, API or multi-system flow works, in ASD-STE100 at Low, Medium or High depth, with a system overview SVG and an interactive walkthrough.",
+      "category": "documentation",
+      "keywords": ["architecture", "documentation", "diagram", "asd-ste100"]
+    },
+    {
+      "name": "tidy-tree",
+      "source": { "source": "github", "repo": "andresfgzdev/tidy-tree" },
+      "description": "Find and fix where code lives in JS/TS repositories, following each project's own architecture.",
+      "category": "refactoring",
+      "keywords": ["refactoring", "file-structure", "typescript", "javascript", "architecture"]
+    }
+  ]
+}
